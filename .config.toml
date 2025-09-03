@@ -8,7 +8,7 @@ api_id = 24908208                                                      # require
 api_hash = "046c0f3f6bd149b1153cde23f4d0f7cd"                       # required
 bot_token = ""                  # either bot_token or session_string is required
 session_string = "1BVtsOJ8Bu4zKXNIGO2-7OXaDLk5bT4AUZmPKMFpSUnXD1L6rPb4vbY7S4dr7mZZCqDY8Lc8AcQmSmztUl-Rm-lpNPPsalH4LqEip-WCzoh7-eju_SvjUwE1PJeKMZKy1RpTC36dLbzAlVuxg-HRIZP3LmdjCKww8MiEo6HlP58ply3YoZ1hNC0uVvJMuETd6X-2YW6vkvcN0BqqsajNttnf_va1WzQcBjHeFkdco9DEgDFFcOU13XDI4heCC_N0vX6wOXBbpFjR65geYtVviOeU9WMemkysCfwhfeNUe4sf2vwEDLTeEwZD3JWT5fasPkwlid70ChjWq4rokxsllDOztopNdHJ4=" # either bot_token or session_string is required
-sudo_users = [, ]                                 # optional
+sudo_users = [ ]                                 # optional
 
 
 # chat ids can be obtained from https://t.me/getidsbot
@@ -23,14 +23,14 @@ to = -1002545508924              # required
 replace = { "old" = "new" } # optional
 
 [[chats]]
-from = [-1001561964907, ]               # required
+from = [-1001561964907]               # required
 to = -1002545508924                                  # required
 replace = { "only_apply_to_this_chat" = "new" } # optional
 
 [[chats]]
 from = -1001561964907            # required
-to = [-1002545508924, ] # required
+to = [-1002545508924] # required
 
 [[chats]]
-from = [-1001561964907, ] # required
-to = [-1002545508924, ]   # required
+from = [-1001561964907] # required
+to = [-1002545508924]   # required
